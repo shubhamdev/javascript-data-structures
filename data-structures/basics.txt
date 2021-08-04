@@ -1,0 +1,39 @@
+https://cs.slides.com/colt_steele/es2015-class-syntax
+
+
+WHAT DO THEY DO?
+  Data structures are collections of values, the relationships among them, and the functions or operations that can be applied to the data
+
+WHY SO MANY???
+  Different data structures excel at different things.  Some are highly specialized, while others (like arrays) are more generally used.
+
+WHY CARE?
+  The more time you spend as a developer, the more likely you'll need to use one of these data structures
+
+  You've already worked with many of them unknowingly!
+
+THERE IS NO ONE "BEST" DATA STRUCTURE
+They all excel in different situations...
+Otherwise why bother learning them all??
+
+
+
+OBJECTIVES
+  Explain what a class is
+  Understand how JavaScript implements the idea of classes
+  Define terms like abstraction, encapsulation and polymorphism
+  Use ES2015 classes to implement data structures
+
+How we'll be using classes
+  We will be using the constructor and instance methods quite a bit
+  We will almost never be using static methods
+
+One gotcha with `this`
+  Inside all of our instance methods and constructor, the keyword `this` refers to the object created from that class (also known as an instance)
+
+Recap
+  Classes are blueprints that when created make objects known as instances
+  Classes are created with the new keyword
+  The constructor function is a special function that gets run when the class is instantiated
+  Instance methods can be added to classes similar to methods in objects
+  Class methods can be added using the static keyword
