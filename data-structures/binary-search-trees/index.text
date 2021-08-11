@@ -97,3 +97,5 @@ Finding a Node in a BST
 Big O of BST
 Insertion - O(log n)
 Searching - O(log n)
+
+https://cs.slides.com/colt_steele/trees#/42/0/1
